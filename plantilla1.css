@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+h1,h2,h3,p{
+  color: white;
+  padding: 10px;
+}
+
+body {
+  font-family: helvetica;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+  background-color: white;
+}
+
+.ancho {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.companyInfo{
+  display: flex;
+  background-color: #d21c0f;
+  padding: 20px;
+}
+
+.companyInfo .izq .logo{
+
+}
+
+.companyInfo .izq{
+  width: 40%;
+}
+.companyInfo .der{
+  width: 60%;
+}
+
+.der .companyName h1{
+  color: white;
+  padding: 0 10px 10px 10px;
+}
+
+.der .infoText p{
+  padding: 10px;
+  color: white;
+}
+
+.line{
+  background-color: #a51107;
+  height: 40px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.products{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+}
+
+.products .singleProduct h3,p{
+  color: #333;
+}
+
+.products .singleProduct{
+  background-color: #f6f0f0;
+  width: 250px;
+  height: 350px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.products .singleProduct .precio{
+  color: #d21c0f;
+}
+
+.footer{
+  display: flex;
+  margin-top: 20px;
+  background-color: #d21c0f;
+  width: 100%;
+  /* height: 30px; */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer .direccion p{
+  color: white;
+  margin-left: 30px;
+}
+
+.footer .contacto p{
+  color: white;
+  margin-right: 30px;
+}
+
+.linefooter{
+  background-color: #a51107;
+  width: 100%;
+  height: 20px;
+}
